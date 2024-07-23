@@ -37,3 +37,10 @@ additional_data = soup.find_all('p')
 for data in additional_data:
 
     writer.writerow([data.text])
+
+    additional_data = soup.find_all('p')
+
+for data in additional_data:
+
+    writer.writerow([data.text])
+
